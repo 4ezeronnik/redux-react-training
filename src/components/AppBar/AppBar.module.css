@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  display: grid;
+}
+
+.title {
+  margin: 0;
+  font-size: 16px;
+}
