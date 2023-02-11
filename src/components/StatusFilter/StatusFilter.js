@@ -14,4 +14,4 @@ export const StatusFilter = () => {
             <Button selected={filter === statusFilters.completed}>Completed</Button>
         </div>
     );
-}
+};
