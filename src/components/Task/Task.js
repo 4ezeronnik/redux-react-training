@@ -13,7 +13,7 @@ export const Task = ({ task }) => {
         <div className={css.wrapper}>
             <input
                 type="checkbox"
-                onChange
+                onChange={handleToggle}
                 className={css.checkbox}
                 checked={task.completed}
             />
